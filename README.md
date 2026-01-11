@@ -110,4 +110,74 @@ Material reorganizado e documentado com foco em **aplicação prática em negóc
 
 ## Overview (EN)
 
-This repository presents the **K-Nearest Neighbors (KNN)** algorithm combined with the **Elbow Method**, focusing on **parameter**
+This repository presents the **K-Nearest Neighbors (KNN)** algorithm combined with the **Elbow Method**, focusing on **parameter selection** and its **impact on business-oriented models**.
+
+The goal is to show how an incorrect choice of **K** can significantly degrade model performance, even with clean data.
+
+This project is part of a **personal Data Science Playbook** designed for practical decision-making.
+
+---
+
+## What is K-Nearest Neighbors (KNN)?
+
+KNN is a **supervised learning algorithm** based on similarity.  
+It predicts outcomes by analyzing the **K closest data points**.
+
+The model does not learn an explicit function and is highly sensitive to data structure and parameter choice.
+
+---
+
+## What is the Elbow Method?
+
+The Elbow Method helps identify an **optimal parameter value** by analyzing error or distance behavior across different K values.
+
+The “elbow” indicates diminishing returns from increasing model complexity.
+
+---
+
+## When to Use KNN (Business Context)
+
+- Moderate data volumes
+- Clear similarity patterns
+- Exploratory or benchmark models
+- Local interpretability
+
+---
+
+## When NOT to Use
+
+- Large datasets
+- High noise levels
+- Real-time constraints
+- Poorly scaled features
+
+---
+
+## Business Questions Addressed
+
+- How much complexity is enough?
+- Is the model overfitting or underfitting?
+- Does similarity truly represent behavior?
+
+---
+
+## Implementation Notes
+
+The notebook covers:
+
+- Error evaluation across K values
+- Elbow curve visualization
+- Parameter selection
+- Practical KNN application
+
+---
+
+## Code Reference
+
+- `Demo5_KNN_Elbow.ipynb`
+
+---
+
+## Academic Context
+
+Reorganized and documented as part of a **personal Data Science & A.I. Playbook**, focused on business application.
